@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  background: hsl(300, 24%, 96%) url(./images/bg-pattern-bottom-mobile.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  grid-template-columns: minmax(275px, 1440px);
+  padding: 1.5rem;
+}
+.avater {
+  display: block;
+  width: 100%;
+}
+.section-center {
+  height: 100%;
+  width: 100%;
+  max-width: 18rem;
+  background:  hsl(0, 0%, 100%)
+;
+padding: 1rem ;
+}
+.section-heading h1{
+    color:  
+    hsl(300, 43%, 22%);
+    text-align: center;
+    padding-top:1.5rem;
+}
+.section-text p{
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+.stars{
+     background: hsl(303, 10%, 53%) ;
+        font-size: 10px;
+        line-height: 15px;
+    display: grid;
+      margin-bottom: 2rem;
+      padding: 0.5rem 0;
+      text-align: center;
+      border-radius: 10px;
+}
+.review{
+    background-color: hsl(300, 43%, 22%);
+    display: grid;
+   margin-bottom: 2rem;
+   padding: 1.5rem;
+   border-radius: 10px;
+   position: relative;
+}
+.text{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+   
+}
+.text-info{
+     color:hsl(333, 80%, 67%) ;
+     padding-top: 0.3rem;
+     text-align: center;
+     font-size: 14px;
+   
+}
+.info{
+   padding: 1.5rem 0;
+   font-size: 15px;
+   line-height: 20px;
+    color:hsl(0, 0%, 100%)
+}
+.avater{
+    margin: 1.5rem;
+    width: 100%;
+    max-width: 3rem;
+    border-radius: 50%;
+    top: 1;
+    left: 1;
+    position: absolute;
+   
+}
+@media screen and (min-width:700px) {
+    main{
+         background: url(./images/bg-pattern-bottom-mobile.svg);
+    }
+    .section-center{
+        max-width: 70rem;
+        padding: 2rem;
+        display: grid;
+        place-items: center;
+    }
+    .div{
+        display: flex;
+    }
+    .reviews{
+        display: flex;
+       justify-content: space-between;
+       gap: 3rem;
+       width: 52rem;
+       max-width: 52rem;
+       border-radius: 5px;
+    }
+    .review-one{
+        margin-bottom: 4rem;
+    }
+    .review-two{
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+    .review-three{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+      .flex{
+          display: flex;
+         gap: 5rem;
+      }
+      .section-heading{
+          max-width: 20rem;
+         
+      }
+      .section-heading h1{
+          text-align: start;
+          font-size: 2.5rem;
+      }
+      .section-heading p{
+          padding-top: 0.5rem;
+          text-align: start;
+      }
+       .stars{
+           margin-top: 2rem;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 0.5rem;
+           max-width: 20rem;
+           width: 20rem;
+           /* max-width: 40rem; */
+           font-size: 8px;
+           border-radius: 5px;
+         
+       }
+       .section-heading,.stars{
+           margin-bottom: 2rem;
+       }
+       .icon-one {
+margin-right: 6rem;
+       }
+       .icon-two{
+margin-left: 3rem;
+       }
+       .icon-three{
+           margin-left: 6rem;
+       }
+    }
+    /* Attribution */
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    }
+    
+# Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+- Weights: 400, 500, 700
